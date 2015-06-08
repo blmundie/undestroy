@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Undestroy::VERSION
 
-  gem.add_dependency 'activerecord', '~>3.0'
+  gem.add_dependency 'activerecord', '~>4.0'
 
   gem.add_development_dependency 'assert', '~>0.7'
   gem.add_development_dependency 'assert-rails', '~>0.2'
